@@ -1,7 +1,7 @@
 import argparse
 
-from .core.output import save_to_file
-from .core.search import search_function
+from cli.core.output import save_to_file
+from cli.core.search import search_function
 
 
 def main():
@@ -23,8 +23,8 @@ def main():
     output_file = args.output_file
 
     # Your script logic using the arguments
-    search_results = search_function(search_query, limit)
-    save_to_file(search_results, "./dump/" + output_file)
+    search_results = search_function(search_query,limit)
+    save_to_file(search_results,"./dump/"+output_file)
 
 
 if __name__ == "__main__":
