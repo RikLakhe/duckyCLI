@@ -11,7 +11,7 @@ Create a CLI application in Python that interacts with the DuckDuckGo Search API
   - Display the search results in the terminal in a readable format.
 - Write to File:
   - Allow the user to specify a filename to write the search results to a text file. 
-  - If no filename is provided, use a default filename (e.g., ducksearch_results.txt).
+  - If no filename is provided, use a default filename (e.g., duckSearch_results.txt).
 - User-Friendly CLI Interface:
   - Implement a user-friendly CLI interface with clear instructions. 
   - Provide help messages and usage instructions.
@@ -34,15 +34,15 @@ Create a CLI application in Python that interacts with the DuckDuckGo Search API
 ##### Example Usage:
 ```bash
 # Basic Search
-python ducksearch.py "Python programming"
+python cli/main.py "Python programming"
 ```
 
 ```bash
 # Search and Write to File
-python ducksearch.py "Python programming" --output-file results.txt
+python cli/main.py "Python programming" --output-file results.txt
 ```
 
 ```bash
 # Display Help
-python ducksearch.py --help
+python cli/main.py --help
 ```
