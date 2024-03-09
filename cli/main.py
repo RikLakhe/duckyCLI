@@ -1,7 +1,7 @@
 import argparse
 
-from cli.core.output import save_to_file
 from cli.core.search import search_function
+from cli.core.output import save_to_file
 
 
 def main():

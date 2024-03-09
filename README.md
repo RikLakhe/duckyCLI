@@ -39,7 +39,7 @@ python cli/main.py "Python programming"
 
 ```bash
 # Search and Write to File
-python cli/main.py "Python programming" --output-file resulttest.txt
+python cli/main.py "Python Programming" --output-file result.txt
 ```
 
 ```bash
